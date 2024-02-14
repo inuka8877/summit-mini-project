@@ -1,0 +1,25 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #144464;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
