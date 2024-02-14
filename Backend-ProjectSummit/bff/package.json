@@ -1,0 +1,31 @@
+{
+  "name": "bff",
+  "version": "1.0.0",
+  "description": "Backend For Front End -  Project Summit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cognito-test": "node test-cognito.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inuka Ampavila",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.504.0",
+    "amazon-cognito-identity-js": "^6.3.7",
+    "aws-sdk": "^2.1557.0",
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "express-http-proxy": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.5",
+    "jwt-decode": "^4.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7"
+  }
+}
